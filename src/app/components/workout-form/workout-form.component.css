@@ -1,0 +1,36 @@
+.form-container {
+    display: flex;
+    flex-direction: column;
+    gap: 16px;
+    max-width: 400px;
+    margin: 0 auto;
+  }
+  
+  .form-field {
+    width: 100%;
+  }
+  
+  .full-width {
+    width: 100%;
+  }
+  
+  .form-button {
+    display: flex;
+    justify-content: center;
+  }
+  
+  .mat-form-field {
+    width: 120%;
+    grid-area: 100% / 100% / auto / auto;
+    height: 48px;
+  }
+  
+
+  .mat-form-field-wrapper {
+    width: 100%;
+  }
+  
+  .mat-form-field-label {
+    white-space: nowrap;
+  }
+  

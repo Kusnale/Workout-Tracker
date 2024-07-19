@@ -1,0 +1,9 @@
+<div *ngIf="data.workoutData.length">
+    <h2>{{ data.username }}'s Workout Progress</h2>
+    <canvas baseChart
+            [data]="lineChartData"
+            [options]="lineChartOptions"
+            chartType="line">
+    </canvas>
+  </div>
+  
